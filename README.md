@@ -1,7 +1,16 @@
 # CARGNet
 we propose a novel weakly supervised change detection framework named CARGNet for point supervised change detection. 
-# Dataset
-## Dataset Structure
+## Requirements
+```
+- python 3.8
+- pytorch 1.7.1
+- opencv-python 4.8.1.78
+- torchvision 0.8.2
+- pillow 9.0.1
+- tqdm 4.63.0
+```
+## Dataset
+### Dataset Structure
 * `LEVIR-CD-Point`:
     * `train`:
       * `C`：Changed images.
@@ -18,7 +27,7 @@ we propose a novel weakly supervised change detection framework named CARGNet fo
       * `image`
       * `image2`
       * `label`
-## Data Download
+### Data Download
 The LEVIR-CD-Point dataset can be downloaded from: [here](https://pan.baidu.com/s/1IeKRxOfuvyh0Q2LHIOy2iA) code：dskl
 
 The DSIFN-CD-Point dataset can be downloaded from: [here](https://pan.baidu.com/s/1cI4w76yKG2C6GIPYKOcrIA) code：dlst
