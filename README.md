@@ -1,5 +1,6 @@
 # CARGNet
-we propose a novel weakly supervised change detection framework named CARGNet for point supervised change detection. 
+we propose a novel weakly supervised change detection framework named CARGNet for point supervised change detection. The overall framework for CARGNet is as follows:
+![markdown](./images/framework.jpg)
 ## Requirements
 ```
 - python 3.8
