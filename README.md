@@ -19,6 +19,6 @@ we propose a novel weakly supervised change detection framework named CARGNet fo
       * `image2`
       * `label`
 ## Data Download
-The LEVIR-CD-Point dataset can be downloaded from: [https://pan.baidu.com/s/1IeKRxOfuvyh0Q2LHIOy2iA](https://pan.baidu.com/s/1IeKRxOfuvyh0Q2LHIOy2iA) 提取码：dskl
+The LEVIR-CD-Point dataset can be downloaded from: [https://pan.baidu.com/s/1IeKRxOfuvyh0Q2LHIOy2iA](https://pan.baidu.com/s/1IeKRxOfuvyh0Q2LHIOy2iA) code：dskl
 
-The DSIFN-CD-Point dataset can be downloaded from: [https://pan.baidu.com/s/1cI4w76yKG2C6GIPYKOcrIA](https://pan.baidu.com/s/1cI4w76yKG2C6GIPYKOcrIA) 提取码：dlst
+The DSIFN-CD-Point dataset can be downloaded from: [https://pan.baidu.com/s/1cI4w76yKG2C6GIPYKOcrIA](https://pan.baidu.com/s/1cI4w76yKG2C6GIPYKOcrIA) code：dlst
