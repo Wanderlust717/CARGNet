@@ -10,8 +10,24 @@ We propose a novel weakly supervised change detection framework named CARGNet fo
 - pillow 9.0.1
 - tqdm 4.63.0
 ```
-## Dataset
-### Dataset Structure
+## Getting Started
+### Data Download
+The LEVIR-CD-Point dataset can be downloaded from: [here](https://pan.baidu.com/s/1IeKRxOfuvyh0Q2LHIOy2iA) code: dskl
+
+The DSIFN-CD-Point dataset can be downloaded from: [here](https://pan.baidu.com/s/1cI4w76yKG2C6GIPYKOcrIA) code: dlst
+
+Then put LEVIR-CD-Point and DSIFN-CD-Point datasets into datasets folder.
+## Evaluate
+### 1. Download our weights
+### 2. Run our code
+```
+python test.py
+```
+## Train our network 
+```
+python train.py
+```
+## Dataset Structure
 * `LEVIR-CD-Point`:
     * `train`:
       * `C`：Changed images.
@@ -28,7 +44,3 @@ We propose a novel weakly supervised change detection framework named CARGNet fo
       * `image`
       * `image2`
       * `label`
-### Data Download
-The LEVIR-CD-Point dataset can be downloaded from: [here](https://pan.baidu.com/s/1IeKRxOfuvyh0Q2LHIOy2iA) code: dskl
-
-The DSIFN-CD-Point dataset can be downloaded from: [here](https://pan.baidu.com/s/1cI4w76yKG2C6GIPYKOcrIA) code: dlst
