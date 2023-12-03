@@ -18,7 +18,7 @@ The DSIFN-CD-Point dataset can be downloaded from: [here](https://pan.baidu.com/
 
 Then put LEVIR-CD-Point and DSIFN-CD-Point datasets into datasets folder.
 ## Evaluate
-### 1. Download our weights
+### 1. Download our [weights](https://pan.baidu.com/s/1RkEPaV-hGVjVn0eSQ3Dbqw?pwd=xthc)
 ### 2. Run our code
 ```
 python test.py
