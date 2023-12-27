@@ -1,5 +1,7 @@
 # CARGNet
-We propose a novel weakly supervised change detection framework named CARGNet for point supervised change detection. The overall framework for CARGNet is as follows:
+Code for TGRS 2023 paper, "Point Label Meets Remote Sensing Change Detection: A Consistency-Aligned Regional Growth Network".
+Authors: [Leyuan Fang](https://scholar.google.com/citations?hl=en&user=Gfa4nasAAAAJ), Yiqi Jiang, Hongfeng Yu, Yingying Zhang, and [Jun Yue](https://scholar.google.com.hk/citations?hl=zh-CN&user=epXQ1RwAAAAJ)
+## Overall Framework
 ![markdown](./images/framework.jpg)
 ## Requirements
 ```
