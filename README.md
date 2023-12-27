@@ -2,9 +2,9 @@
 Code for TGRS 2023 paper, "Point Label Meets Remote Sensing Change Detection: A Consistency-Aligned Regional Growth Network".
 
 Authors: [Leyuan Fang](https://scholar.google.com/citations?hl=en&user=Gfa4nasAAAAJ), Yiqi Jiang, Hongfeng Yu, Yingying Zhang, and [Jun Yue](https://scholar.google.com.hk/citations?hl=zh-CN&user=epXQ1RwAAAAJ)
-## Overall Framework
+## 📖Overall Framework
 ![markdown](./images/framework.jpg)
-## Requirements
+## 📖Requirements
 ```
 - python 3.8
 - pytorch 1.7.1
@@ -13,24 +13,24 @@ Authors: [Leyuan Fang](https://scholar.google.com/citations?hl=en&user=Gfa4nasAA
 - pillow 9.0.1
 - tqdm 4.63.0
 ```
-## Getting Started
+## 📖Getting Started
 ### Data Download
 The LEVIR-CD-Point dataset can be downloaded from: [here](https://pan.baidu.com/s/1bV1TCNxbloJveqh1eG3a7w?pwd=dskl) 
 
 The DSIFN-CD-Point dataset can be downloaded from: [here](https://pan.baidu.com/s/12wkHXxStmlrgcNk3yMdqyA?pwd=dlst) 
 
 Then put LEVIR-CD-Point and DSIFN-CD-Point datasets into datasets folder.
-## Evaluate
+## 📖Evaluate
 ### 1. Download our [weights](https://pan.baidu.com/s/1RkEPaV-hGVjVn0eSQ3Dbqw?pwd=xthc)
 ### 2. Run our code
 ```
 python test.py
 ```
-## Train our network 
+## 📖Train our network 
 ```
 python train.py
 ```
-## Dataset Structure
+## 📖Dataset Structure
 * `LEVIR-CD-Point`:
     * `train`:
       * `C`：Changed images.
