@@ -13,24 +13,8 @@ Authors: [Leyuan Fang](https://scholar.google.com/citations?hl=en&user=Gfa4nasAA
 - pillow 9.0.1
 - tqdm 4.63.0
 ```
-## 📖Getting Started
-### Data Download
-The LEVIR-CD-Point dataset can be downloaded from: [here](https://pan.baidu.com/s/1bV1TCNxbloJveqh1eG3a7w?pwd=dskl) 
-
-The DSIFN-CD-Point dataset can be downloaded from: [here](https://pan.baidu.com/s/12wkHXxStmlrgcNk3yMdqyA?pwd=dlst) 
-
-Then put LEVIR-CD-Point and DSIFN-CD-Point datasets into datasets folder.
-## 📖Evaluate
-### 1. Download our [weights](https://pan.baidu.com/s/1RkEPaV-hGVjVn0eSQ3Dbqw?pwd=xthc)
-### 2. Run our code
-```
-python test.py
-```
-## 📖Train our network 
-```
-python train.py
-```
-## 📖Dataset Structure
+## 📖Dataset Preparation
+### 📔Dataset Structure
 * `LEVIR-CD-Point`:
     * `train`:
       * `C`：Changed images.
@@ -47,3 +31,17 @@ python train.py
       * `image`
       * `image2`
       * `label`
+### 📔Data Download
+The LEVIR-CD-Point dataset can be downloaded from: [here](https://pan.baidu.com/s/1bV1TCNxbloJveqh1eG3a7w?pwd=dskl) 
+
+The DSIFN-CD-Point dataset can be downloaded from: [here](https://pan.baidu.com/s/12wkHXxStmlrgcNk3yMdqyA?pwd=dlst) 
+## 📖Evaluate
+### 1. Download our [weights](https://pan.baidu.com/s/1RkEPaV-hGVjVn0eSQ3Dbqw?pwd=xthc)
+### 2. Run our code
+```
+python test.py
+```
+## 📖Train our network 
+```
+python train.py
+```
