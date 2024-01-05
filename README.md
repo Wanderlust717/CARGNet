@@ -1,5 +1,5 @@
 # CARGNet
-Code for TGRS 2023 paper, "Point Label Meets Remote Sensing Change Detection: A Consistency-Aligned Regional Growth Network".
+Code for TGRS 2023 paper, "[Point Label Meets Remote Sensing Change Detection: A Consistency-Aligned Regional Growth Network](https://ieeexplore.ieee.org/document/10376189)".
 
 Authors: [Leyuan Fang](https://scholar.google.com/citations?hl=en&user=Gfa4nasAAAAJ), Yiqi Jiang, Hongfeng Yu, Yingying Zhang, and [Jun Yue](https://scholar.google.com.hk/citations?hl=zh-CN&user=epXQ1RwAAAAJ)
 ## 📖Overall Framework
@@ -44,4 +44,15 @@ python test.py
 ## 📖Train our network 
 ```
 python train.py
+```
+## 💬Bibtex
+If you find this repo useful for your research, please cite our paper:
+```
+@article{fang2023point,
+  title={Point Label Meets Remote Sensing Change Detection: A Consistency-Aligned Regional Growth Network},
+  author={Fang, Leyuan and Jiang, Yiqi and Yu, Hongfeng and Zhang, Yingying and Yue, Jun},
+  journal={IEEE Transactions on Geoscience and Remote Sensing},
+  year={2023},
+  publisher={IEEE}
+}
 ```
